@@ -26,7 +26,7 @@
                     <path d="M9 23l2-6 9-9 4 4-9 9z" fill="#16296b"/>
                     <path d="M20 8l4 4" stroke="#ffc629" stroke-width="2"/>
                 </svg>
-                <span>Campus Fix-It Desk</span>
+                <span>Campus Fix-it Desk</span>
             </a>
             <nav class="topnav" aria-label="Main">
                 @php $isStaff = auth()->check() && auth()->user()->role === 'staff'; @endphp
@@ -71,13 +71,6 @@
 
     <footer class="footer">
         <div class="container">
-            Help us keep the school safe and comfortable. Every report gets a reference number you can follow.
-        </div>
-    </footer>
-
-
-    <footer class="footer">
-        <div class="container">
             <div class="footer-grid">
                 <div class="footer-col footer-about">
                     <h2 class="footer-title">About Us</h2>
@@ -117,7 +110,6 @@
 
             <div class="footer-bottom">
                 <span>&copy; {{ date('Y') }} Campus Fix-It Desk. All rights reserved.</span>
-                <span>Every report gets a reference number you can follow.</span>
             </div>
         </div>
     </footer>

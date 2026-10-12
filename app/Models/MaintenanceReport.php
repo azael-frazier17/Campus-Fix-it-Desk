@@ -63,6 +63,8 @@ class MaintenanceReport extends Model
         'status',
         'assigned_to',
         'resolved_at',
+        'assigned_to',
+        'assigned_user_id',
     ];
 
     protected $casts = [
